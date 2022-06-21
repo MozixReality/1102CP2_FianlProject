@@ -47,9 +47,9 @@ for std in students:
                     elif mylog[i].find("B") != -1:
                         result_table[std_index[std]][std_index[bot]] = bot
                         break
-                    else:
-                        result_table[std_index[std]][std_index[bot]] = "Tie"
-                        break
+                if mylog[i].find("Tie") != -1:
+                    result_table[std_index[std]][std_index[bot]] = "Tie"
+                    break
         with open('../move_player_be_B.log') as f:
             mylog = f.read().split("\n")
             for i in range(len(mylog)-1, 0, -1):
@@ -60,9 +60,9 @@ for std in students:
                     elif mylog[i].find("B") != -1:
                         result_table[std_index[bot]][std_index[std]] = std
                         break
-                    else:
-                        result_table[std_index[bot]][std_index[std]] = "Tie"
-                        break
+                if mylog[i].find("Tie") != -1:
+                    result_table[std_index[bot]][std_index[std]] = "Tie"
+                    break
         subprocess.run("mv ../move_player_be_A.log ../result/A_{}_B_{}.log".format(std, bot), shell=True)
         subprocess.run("mv ../move_player_be_B.log ../result/A_{}_B_{}.log".format(bot, std), shell=True)
 
@@ -82,9 +82,9 @@ for i in range(len(students)):
                     elif mylog[i].find("B") != -1:
                         result_table[std_index[students[i]]][std_index[students[j]]] = students[j]
                         break
-                    else:
-                        result_table[std_index[students[i]]][std_index[students[j]]] = "Tie"
-                        break
+                if mylog[i].find("Tie") != -1:
+                    result_table[std_index[students[i]]][std_index[students[j]]] = "Tie"
+                    break
         with open('../move_player_be_B.log') as f:
             mylog = f.read().split("\n")
             for i in range(len(mylog)-1, 0, -1):
@@ -95,9 +95,9 @@ for i in range(len(students)):
                     elif mylog[i].find("B") != -1:
                         result_table[std_index[students[j]]][std_index[students[i]]] = students[i]
                         break
-                    else:
-                        result_table[std_index[students[j]]][std_index[students[i]]] = "Tie"
-                        break
+                if mylog[i].find("Tie") != -1:
+                    result_table[std_index[students[j]]][std_index[students[i]]] = "Tie"
+                    break
         subprocess.run("mv ../move_player_be_A.log ../result/A_{}_B_{}.log".format(students[i], students[j]), shell=True)
         subprocess.run("mv ../move_player_be_B.log ../result/A_{}_B_{}.log".format(students[j], students[i]), shell=True)
 
