@@ -14,15 +14,15 @@ graph = []
 def init():
     global Ascore, Bscore, ACountDown, BCountDown, msg, graph
     Ascore, Bscore, ACountDown, BCountDown = 0, 0, 0, 0
-    graph = [[0 for _ in range(8)] for _ in range(8)]
-    with open('88map') as f:
+    graph = [[0 for _ in range(20)] for _ in range(20)]
+    with open('20map') as f:
         mygraph = f.read()
-    for idx, c in enumerate(mygraph[4:]):
+    for idx, c in enumerate(mygraph[6:]):
         if idx % 2 == 0:
-            graph[int(((idx+2)/2-1)//8)][int(((idx+2)/2-1)%8)] = c
+            graph[int(((idx+2)/2-1)//20)][int(((idx+2)/2-1)%20)] = c
 
 def output_graph():
-    output = "8 8\n"
+    output = "20 20\n"
     for ls in graph:
         for elm in  ls:
             output += elm + " "
@@ -61,7 +61,7 @@ def pick_item(who, x, y):
 
 def valid(x, y):
     return (
-        x >= 0 and x < 8 and y >=0 and y < 8 and 
+        x >= 0 and x < 20 and y >= 0 and y < 20 and 
         graph[x][y] != 'x' and 
         graph[x][y] != 'A' and graph[x][y] != 'B'
     )
