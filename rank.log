@@ -1,0 +1,1045 @@
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+player be A, bot1 be B
+judging ...
+A Win
+20
+. . . x m m m x . . m m m m . m m s x s
+. s . . m x . . b . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. . m m m m n n . . . m m x . x m m x m
+. x x x x x x x x m b . x x . x m x x m
+. A . . x m m n . m m . n . . . x s x m
+x x x . x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x B
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x m . . s .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 4
+B Score: 0
+judge finished
+bot1 be A, player be B
+judging ...
+B Win
+20
+. . A x m m m x . . m m m m . m m s x s
+. s . . m x . . b . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. . m m m m n n . . . m m x . x m m x m
+t x x x x x x x x m b . x x . x m x x m
+. m m m x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x t
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x . . . s .
+s x s m m . m m m m . . x m . B x . . .
+
+A Score: 0
+B Score: 3
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+player be A, bot2 be B
+judging ...
+B Win
+20
+. . . x . . . x . . m m m m . m m s x s
+B . . . . x . . . . x x x x . x x x x m
+. . x x x . x x . x x . . . . . . . x m
+. . . . . . . . . . . . . x . x m . x m
+. x x x x x x x x . . . x x . x m x x m
+. . . . x m m n . . . . . . . . x . x m
+x x x . x . x m x x x x . x x . . . . m
+. . . . n . x n m m m m n m x . x x x x
+. x x . . b m x t m m t x m x . . . . .
+. . x x x x m x s n n s x m x x x x . .
+A . x x x x m x s n n s x m x x x x . .
+. . . . . x m x t m m t x m b . . x x .
+x x x x . x m n m m m m n x . n . . . .
+m . . n . x x . x x x x m x . x . x x x
+m x s x . . . n . m m . n m m x . . . .
+m x x m x . x x . b m x x x x x x x x .
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x m . . s .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 11
+B Score: 68
+judge finished
+bot2 be A, player be B
+judging ...
+B Win
+20
+A . . x . . . x . . m m m m . m m s x s
+. . . . . x . . b . x x x x . x x x x m
+. . x x x . x x . x x m m . b . m m x m
+. . . . . . . . . . . m m x . x m m x m
+. x x x x x x x x m b . x x . x m x x m
+. m m m x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m . . n m m x m m m .
+m x x m x . x x . b . x x x x x x x x t
+m x m m x . x m . . . . n n m m m m . .
+m x m m . b . m B x x . x x m x x x . .
+m x x x x . x x x x . . . . x . . . s .
+s x s m m . m m m m . . x . . . x . . .
+
+A Score: 5
+B Score: 8
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+player be A, bot3 be B
+judging ...
+A Win
+20
+. . . x m m m x . . m m m m . m m s x s
+. s . . m x . . b . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. A . m m m n n . . . m m x . x m m x m
+. x x x x x x x x m b . x x . x m x x m
+. . . . x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x t
+m x m m x . x m m . . . n n m m m m B .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x m . . s .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 4
+B Score: 0
+judge finished
+bot3 be A, player be B
+judging ...
+B Win
+20
+. . . x m m m x . . m m m m . m m s x s
+. s . . m x . . b . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. A m m m m n n . . . m m x . x m m x m
+t x x x x x x x x m b . x x . x m x x m
+. m m m x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x t
+m x m m x . x m m . . . n n m m m . B .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x m . . . .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 0
+B Score: 1
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+player be A, bot1 be B
+judging ...
+A Win
+20
+. . . x . . . x . . . . . . . . . . x s
+. s . . . x . . . . x x x x . x x x x m
+. . x x x m x x . x x m m . . . m m x m
+. . m m m m n n . . . m m x . x m m x m
+t x x x x x x x x m b . x x . x m x x m
+. m m m x . . . . . . . . . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+A . . . n . x n m m m m n m x . x x x x
+. x x . . . m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x B
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x m . . s .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 22
+B Score: 0
+judge finished
+bot1 be A, player be B
+judging ...
+B Win
+20
+. . A x m m m x . . m m m m . m m s x s
+. s . . m x . . b . x x x x . x x x x m
+. . x x x m x x . x x . . . b . m m x m
+. . m m m m n n . . . . B x . x m m x m
+t x x x x x x x x m b . x x . x m x x m
+. m m m x m m n . m m . . . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m . . x . x x x x
+m x x . . b m x t m m t x . x . . m m m
+m m x x x x m x s n n s x . x x x x m m
+m m x x x x m x s n n s x . x x x x m m
+m m m . . x m x t m m t x . . . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x . x x x
+m x s x . . . n . m m . n m m x . . . .
+m x x m x . x x . b m x x x x x x x x .
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x m . . s .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 0
+B Score: 11
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+player be A, bot2 be B
+judging ...
+B Win
+20
+. . . x . . . x . . . . . . . . . A x s
+B . . . . x . . . . x x x x . x x x x m
+. . x x x m x x . x x . m . . . m m x m
+. . . m m m n n . . . . m x . x m m x m
+. x x x x x x x x m b . x x . x m x x m
+. . . . x . . . . . . . . . . . x s x m
+x x x . x . x . x x x x . x x . n . . m
+. . n . . . x . . . . . . . x . x x x x
+m x x . . . . x . . . . x . x . . m m m
+m m x x x x . x . . . . x . x x x x m m
+m m x x x x . x . . n . x . x x x x m m
+m m m . . x . x . m m . x . . . . x x m
+x x x x . x . . . m m . . x . n . n . .
+m . . n . x x . x x x x . x . x . x x x
+m x s x . . . . . . . . . m m x . . . .
+m x x m x . x x . b . x x x x x x x x .
+m x m m x . x m . . . . n n m m m m . .
+m x m m . . . m . x x . x x m x x x . .
+m x x x x . x x x x . . . . x m . . s .
+s x . . . . . . . . . . x m m m x . . .
+
+A Score: 30
+B Score: 71
+judge finished
+bot2 be A, player be B
+judging ...
+B Win
+20
+A . . x . . . x . . m m m m . m m s x s
+. . . . . x . . b . x x x x . x x x x m
+. . x x x . x x . x x m m . b . m m x m
+. . . . . . . . . . . m m x . x m m x m
+. x x x x x x x x m b . x x . x m x x m
+. m m m x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m . .
+m x x m x . x x . b m x x x x x x x x .
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . . . . x . . . . B
+s x . . . . . . . . . . x . . . x . . .
+
+A Score: 5
+B Score: 44
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+player be A, bot3 be B
+judging ...
+A Win
+20
+. . . x m m m x . . m m m m . m m s x s
+. . . . m x . . b . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. . . . . . . . . . . m m x . x m m x m
+. x x x x x x x x . b . x x . x m x x m
+. . . . x m m n . . . . . . . . x s x m
+x x x . x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m . . x . x x x x
+m x x . . b m x t m m t x . x . . m m m
+m m x x x x m x s n n s x . x x x x m m
+m m x x x x m x s n n s x . x x x x m m
+m m m . . x m x t m m t x . . . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . A . . x x . x x x x m x . x m x x x
+m x s x . . . . . . . . . . . x m m m .
+m x x m x . x x . b m x x x x x x x x t
+m x m m x . x m m . B . . . . . . . . .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x m . . s .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 13
+B Score: 2
+judge finished
+bot3 be A, player be B
+judging ...
+B Win
+20
+. . . x m m m x . . m m m m . m m s x s
+. s . . m x . . b . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. . m m m m n n . . . m m x . x m m x m
+. x x x x x x x x m b . x x . x m x x m
+. A m m x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x t
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x B x x x x . . . . x . . . s .
+s x . . . . . . . . . . x . . . x . . .
+
+A Score: 1
+B Score: 20
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+player be A, bot1 be B
+judging ...
+A Win
+20
+. . . x . . . x . . . . . . . . . . x s
+. . . . . x . . . . x x x x . x x x x m
+. . x x x m x x . x x . . . . . A . x m
+. . . . . m n n . . . . . x . x . . x m
+t x x x x x x x x m b . x x . x . x x m
+. m m m x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x B
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x m . . s .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 41
+B Score: 0
+judge finished
+bot1 be A, player be B
+judging ...
+B Win
+20
+. . A x m m m x . . m m m m . m m s x s
+. s . . m x . . b . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. . m m m m n n . . . m m x . x m m x m
+t x x x x x x x x m b . x x . x m x x m
+. . . . x m m n . m m . n . . . x s x m
+x x x . x . x m x x x x . x x . n . . m
+. . . . . . x n m m m m n m x . x x x x
+. x x . . . . x t m m t x m x . . m m m
+. . x x x x . x . . . . x m x x x x m m
+. . x x x x . x . n . . x m x x x x m m
+. . . . . x . x . m . t x m b . . x x m
+x x x x . x . . . . . m n x . n . n . .
+. . . . . x x . x x x x m x . x m x x x
+. x . x . . . . . m m . n m m x m m m .
+. x x . x . x x . b m x x x x x x x x t
+. x . . x . x . . . . . n n m . . . . .
+. x . . . . . . . x x . x x m x x x . .
+. x x x x . x x x x . . . . x . . . . .
+B x . . . . . . . . . . x . . . x . . .
+
+A Score: 0
+B Score: 1324
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+player be A, bot2 be B
+judging ...
+A Win
+20
+B . . x . . . x . . . . . . . . . . x s
+. . . . . x . . . . x x x x . x x x x m
+. . x x x . x x . x x . . . . . A . x m
+. . . . . . . . . . . . . x . x . . x m
+. x x x x x x x x m b . x x . x . x x m
+. . . . x m m n . m m . n . . . x s x m
+x x x . x . x m x x x x . x x . n . . m
+. . . . n . x n m m m m n m x . x x x x
+. x x . . b m x t m m t x m x . . m m m
+. . x x x x m x s n n s x m x x x x m m
+. . x x x x m x s n n s x m x x x x m m
+m . . . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . . . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x . x . x x . b m x x x x x x x x t
+m x . . x . x . . . . . n n m . . . . .
+m x . . . . . . . x x . x x m x x x . .
+m x x x x . x x x x . . . . x . . . . .
+s x . . . . . . . . . . x . . . x . . .
+
+A Score: 41
+B Score: 25
+judge finished
+bot2 be A, player be B
+judging ...
+B Win
+20
+A . . x . . . x . . m m m m . m m s x s
+. . . . . x . . b . x x x x . x x x x m
+. . x x x . x x . x x m m . b . m m x m
+. . . . . . . . . . . m m x . x m m x m
+. x x x x x x x x m b . x x . x m x x m
+. . . . x m m n . m m . n . . . x s x m
+x x x . x . x m x x x x . x x . n . . m
+. . . . . . x n m m m m n m x . x x x x
+. x x . . . . x t m m t x m x . . m m m
+. . x x x x . x . . . . x m x x x x m m
+. . x x x x . x . n . . x m x x x x m m
+. . . . . x . x . m . t x m b . . x x m
+x x x x . x . . . . . m n x . n . n . .
+. . . . . x x . x x x x m x . x m x x x
+. x . x . . . . . m m . n m m x m m m .
+. x x . x . x x . b m x x x x x x x x t
+. x . . x . x . . . . . n n m . . . . .
+. x . . . . . . . x x . x x m x x x . .
+. x x x x . x x x x . . . . x . . . . .
+B x . . . . . . . . . . x . . . x . . .
+
+A Score: 5
+B Score: 1324
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+player be A, bot3 be B
+judging ...
+A Win
+20
+. . . x . . . x . . . . . . . . . . x s
+. . . . . x . . . . x x x x . x x x x m
+. . x x x m x x . x x . . . . . A . x m
+. . . . . m n n . . . . . x . x . . x m
+t x x x x x x x x m b . x x . x . x x m
+. m m m x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m B .
+m x x m x . x x . b m x x x x x x x x .
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x m . . s .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 41
+B Score: 1
+judge finished
+bot3 be A, player be B
+judging ...
+B Win
+20
+. . . x m m m x . . m m m m . m m s x s
+. s . . m x . . b . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. . m m m m n n . . . m m x . x m m x m
+. x x x x x x x x m b . x x . x m x x m
+. A m m x . . . . m m . n . . . x s x m
+x x x m x . x . x x x x . x x . n . . m
+. . n . n . x . . . . . . . x . x x x x
+m x x . . . . x t m m t x . x . . m m m
+m m x x x x . x . . . . x . x x x x m m
+m m x x x x . x . n . . x . x x x x m m
+m m m . . x . x . m . t x . . . . x x m
+x x x x . x . . . . . m n x . . . n . .
+m . . n . x x . x x x x m x . x . x x x
+m x s x . . . . . m m . n m m x . . B .
+m x x . x . x x . b m x x x x x x x x t
+m x . . x . x . . . . . n n m . . . . .
+m x . . . . . . . x x . x x m x x x . .
+m x x x x . x x x x . . . . x . . . . .
+s x . . . . . . . . . . x . . . x . . .
+
+A Score: 1
+B Score: 331
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+player be A, bot1 be B
+judging ...
+20
+. . . x m m m x . . m m m m . m m s x s
+. s . A m x . . b . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. . m m m m n n . . . m m x . x m m x m
+t x x x x x x x x m b . x x . x m x x m
+. m m m x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x B
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x m . . s .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 0
+B Score: 0
+judge finished
+bot1 be A, player be B
+judging ...
+20
+. . A x m m m x . . m m m m . m m s x s
+. s . . m x . . b . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. . m m m m n n . . . m m x . x m m x m
+t x x x x x x x x m b . x x . x m x x m
+. m m m x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x t
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . B
+m x x x x . x x x x . b . . x m . . . .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 0
+B Score: 0
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+player be A, bot2 be B
+judging ...
+B Win
+20
+. . . x m m m x . . m m m m . m m s x s
+. . . . m x . . b . x x x x . x x x x m
+A . x x x m x x . x x m m . b . m m x m
+. . m m m m n n . . . m m x . x m m x m
+. x x x x x x x x m b . x x . x m x x m
+. B . . x . . . . . m . n . . . x s x m
+x x x . x . x . x x x x . x x . n . . m
+. . . . . . x . . . . . . . x . x x x x
+m x x . . . . x . . . . x . x . . m m m
+m m x x x x m x . . . . x . x x x x m m
+m m x x x x m x . . . . x . x x x x m m
+m m m . . x m x . . . . x . . . . x x m
+x x x x . x m n m m m m n x . . . n . .
+m . . n . x x . x x x x m x . x . x x x
+m x s x . . . n . m m . n m m x . . . .
+m x x m x . x x . b m x x x x x x x x .
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x m . . . .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 0
+B Score: 14
+judge finished
+bot2 be A, player be B
+judging ...
+A Win
+20
+A . . x . . . x . . m m m m . m m s x s
+. . . . . x . . b . x x x x . x x x x m
+. . x x x . x x . x x m m . b . m m x m
+. . . . . . . . . . . m m x . x m m x m
+. x x x x x x x x m b . x x . x m x x m
+. m m m x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x t
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . B
+m x x x x . x x x x . b . . x m . . . .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 5
+B Score: 0
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+player be A, bot3 be B
+judging ...
+20
+. . . x m m m x . . m m m m . m m s x s
+. s . A m x . . b . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. . m m m m n n . . . m m x . x m m x m
+t x x x x x x x x m b . x x . x m x x m
+. m m m x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x t
+m x m m x . x m m . . . n n m m m m B .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x m . . s .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 0
+B Score: 0
+judge finished
+bot3 be A, player be B
+judging ...
+20
+. . . x m m m x . . m m m m . m m s x s
+. s . . m x . . b . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. A m m m m n n . . . m m x . x m m x m
+t x x x x x x x x m b . x x . x m x x m
+. m m m x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x t
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . B
+m x x x x . x x x x . b . . x m . . . .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 0
+B Score: 0
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+judging ...
+B Win
+20
+. . . x m m m x . . m m m m . . . . x s
+. s . . m x . . b . x x x x . x x x x m
+. . x x x m x x . x x . . . . . m m x m
+. . . . . . . . . . . . m x . x m m x m
+. x x x x x x x x m b . x x . x m x x m
+B . . . x m m n . m m . . . . . x s x m
+x x x . x . x m x x x x . x x . n . . m
+. . n A n . x n . . . . . m x . x x x x
+m x x . . b m x . m m t x m x . . m m m
+m m x x x x m x . n n s x m x x x x m m
+m m x x x x m x . n n s x m x x x x m m
+m m m . . x m x . m m t x m b . . x x m
+x x x x . x m . . m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . . . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x t
+m x m m x . x m m . . . n n m m m m . .
+m x m m . . . m m x x . x x m x x x . .
+m x x x x . x x x x . . . . x . . . s .
+s x . . . . . . . . . . x . . . x . . .
+
+A Score: 4
+B Score: 49
+judge finished
+judging ...
+A Win
+20
+. . . x . . . x . . m m m m . m m s x s
+. . . . . x . . . . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. . . . . . . . . . . . m x . x m m x m
+. x x x x x x x x . b . x x . x m x x m
+. . . . x m m n . . . . . . . . x s x m
+x x x . x . x m x x x x . x x . n . . m
+A . n . n . x n m m m m . . x . x x x x
+. x x . . . . x t m m t x m x . . m m m
+. . x x x x . x s n n s x m x x x x m m
+m . x x x x . x s n n s x m x x x x m m
+m . . . . x . x t m m t x m b . . x x m
+x x x x . x . . m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . . . m . . n m m x m m m .
+m x x m x . x x . . . x x x x x x x x t
+m x m m x . x . B . . . n n . . . . . .
+m x m m . . . . . x x . x x m x x x . .
+m x x x x . x x x x . . . . x . . . . .
+s x . . . . m m m m . . x . . . x . . .
+
+A Score: 32
+B Score: 14
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+judging ...
+B Win
+20
+. . . x m m m x . . m m m m . m m s x s
+. s . . m x . . b . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. . m m m m n n . . . m m x . x m m x m
+. x x x x x x x x m b . x x . x m x x m
+. . . . x . . . . m m . n . . . x s x m
+x x x . x . x . x x x x . x x . n . . m
+. . n A n . x . . . . . . . x . x x x x
+m x x . . . . x t m m t x . x . . m m m
+m m x x x x . x . . . . x . x x x x m m
+m m x x x x . x . n . . x . x x x x m m
+m m m . . x . x . m . t x . . . . x x m
+x x x x . x . . . . . m n x . . . n . .
+m . . n . x x . x x x x m x . x . x x x
+m x s x . . . . . m m . n m m x . . B .
+m x x . x . x x . b m x x x x x x x x t
+m x . . x . x . . . . . n n m . . . . .
+m x . . . . . . . x x . x x m x x x . .
+m x x x x . x x x x . . . . x . . . . .
+s x . . . . . . . . . . x . . . x . . .
+
+A Score: 4
+B Score: 331
+judge finished
+judging ...
+A Win
+20
+. . . x . . . x . . . . . . . . . . x s
+. . . . . x . . . . x x x x . x x x x m
+. . x x x m x x . x x . . . . . A . x m
+. . . . . m n n . . . . . x . x . . x m
+t x x x x x x x x m b . x x . x . x x m
+. m m m x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x t
+m x m m x . x m m . . . n n . . . . . .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x m . . . .
+s x s m m . m m m m . . x m m m x B . .
+
+A Score: 41
+B Score: 4
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+judging ...
+A Win
+20
+. . . x m m m x . . m m m m . m m s x s
+. s . . m x . . b . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. A . . . . n n . . . m m x . x m m x m
+t x x x x x x x x m b . x x . x m x x m
+. m m m x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x t
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . B
+m x x x x . x x x x . b . . x m . . . .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 4
+B Score: 0
+judge finished
+judging ...
+20
+. . . x m m m x . . m m m m . m m s x s
+. s . A m x . . b . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. . m m m m n n . . . m m x . x m m x m
+t x x x x x x x x m b . x x . x m x x m
+. m m m x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x t
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x m . . s .
+s x s m m . m m m m . . x m m m x B . .
+
+A Score: 0
+B Score: 0
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+judging ...
+B Win
+20
+. . . x . . . x . . . . . . . . . . x s
+. . . . . x . . . . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. . . . . . . . . . . m m x . x m m x m
+. x x x x x x x x m b . x x . x m x x m
+. . A . x m m n . m m . n . . . x s x m
+x x x . x . x m x x x x . x x . n . . m
+. . . . . . x n m m m m n m x . x x x x
+. x x . . . . x t m m t x m x . . m m m
+. . x x x x . x . . . . x m x x x x m m
+. . x x x x . x . n . . x m x x x x m m
+. . . . . x . x . m . t x m b . . x x m
+x x x x . x . . . . . m n x . n . n . .
+. . . . . x x . x x x x m x . x m x x x
+. x . x . . . . . m m . n m m x m m m .
+. x x . x . x x . b m x x x x x x x x t
+. x . . x . x . . . . . n n m . . . . .
+. x . . . . . . . x x . x x m x x x . .
+. x x x x . x x x x . . . . x . . . . .
+B x . . . . . . . . . . x . . . x . . .
+
+A Score: 11
+B Score: 1324
+judge finished
+judging ...
+A Win
+20
+. . . x . . . x . . . . . . . . . . x s
+. . . . . x . . . . x x x x . x x x x m
+. . x x x m x x . x x . . . . . A . x m
+. . . . . m n n . . . . . x . x . . x m
+t x x x x x x x x m b . x x . x . x x m
+. m m . x . . . . m m . n . . . x s x m
+x x x . x . x . x x x x . x x . n . . m
+. B . . n . x . . . . . . . x . x x x x
+m x x . . . m x t m m t x . x . . m m m
+m m x x x x m x s n n s x . x x x x m m
+m m x x x x m x s n n s x . x x x x m m
+m m m . . x m x t m m t x . . . . x x m
+x x x x . x m n m m m m n x . . . n . .
+m . . n . x x . x x x x m x . x . x x x
+m x s x . . . n . m m . n m m x . . . .
+m x x m x . x x . b m x x x x x x x x .
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x m . . s .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 41
+B Score: 13
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+judging ...
+A Win
+20
+. . . x m m m x . . m m m m . m m s x s
+. . . . m x . . b . x x x x . x x x x m
+. . x x x m x x . x x m m . b . m m x m
+. . m m m m n n . . . m m x . x m m x m
+. x x x x x x x x m b . x x . x m x x m
+. . . . x m m n . m m . n . . . x s x m
+x x x . x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . . . x t m m t x m x . . m m m
+m m x x x x . x s n n s x m x x x x m m
+m m x x x x . x s n n s x m x x x x m m
+m m m . . x . x t m m t x m b . . x x m
+x x x x . x . . m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . . . m m . n m m x . . . A
+m x x m x . x x . b m x x x x x x x x .
+m x m m x . x m . . . . . . . . . . . .
+m x m m . b . . . x x . x x m x x x . .
+m x x x x . x x x x . b . . x . B . . .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 9
+B Score: 1
+judge finished
+judging ...
+B Win
+20
+. . . x m m m x . . m m m m . m m s x s
+. . . . m x . . b . x x x x . x x x x m
+. . x x x m x x . x x . . . . . . . x m
+. . m m m m n n . . . . . x . x . . x m
+A x x x x x x x x m b . x x . x m x x m
+. m m m x B . . . . . . . . . . x s x m
+x x x m x . x . x x x x . x x . n . . m
+. . n . n . x . m m m m . . x . x x x x
+m x x . . b m x t m m t x . x . . m m m
+m m x x x x m x s n n s x . x x x x m m
+m m x x x x m x s n n s x . x x x x m m
+m m m . . x m x t m m t x . . . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x . x x x
+m x s x . . . n . m m . n m m x . . . .
+m x x m x . x x . b m x x x x x x x x .
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . .
+m x x x x . x x x x . b . . x m . . s .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 0
+B Score: 18
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+make[1]: Entering directory '/home/mozixreality/110CP2_FinalProject'
+judging ...
+A Win
+20
+. . . x . . . x . . . . . . . . . . x s
+. . . . . x . . . . x x x x . x x x x m
+. . x x x m x x . x x . . . . . A . x m
+. . . . . m n n . . . . . x . x . . x m
+t x x x x x x x x m b . x x . x . x x m
+. m m m x m m n . m m . n . . . x s x m
+x x x m x . x m x x x x . x x . n . . m
+. . n . n . x n m m m m n m x . x x x x
+m x x . . b m x t m m t x m x . . m m m
+m m x x x x m x s n n s x m x x x x m m
+m m x x x x m x s n n s x m x x x x m m
+m m m . . x m x t m m t x m b . . x x m
+x x x x . x m n m m m m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . n . m m . n m m x m m m .
+m x x m x . x x . b m x x x x x x x x t
+m x m m x . x m m . . . n n m m m m . .
+m x m m . b . m m x x . x x m x x x . B
+m x x x x . x x x x . b . . x m . . . .
+s x s m m . m m m m . . x m m m x . . .
+
+A Score: 41
+B Score: 0
+judge finished
+judging ...
+B Win
+20
+. . . x . . . x . . . . . . . . . . x s
+. . . . . x . . . . x x x x . x x x x m
+. . x x x m x x . x x . . . . . . B x m
+. . . . . . . . . . . . . x . x . . x m
+. x x x x x x x x . b . x x . x . x x m
+. . . . x m m n . . . . n . . . x s x m
+x x x . x . x m x x x x . x x . n . . m
+. . n . . . x n m m m m n m x . x x x x
+m x x . . . . x t m m t x m x . A . m m
+m m x x x x . x . . . . x m x x x x m m
+m m x x x x . x . n . . x m x x x x m m
+m m m . . x . x . m . t x m b . . x x m
+x x x x . x . . . . . m n x . n . n . .
+m . . n . x x . x x x x m x . x m x x x
+m x s x . . . . . m m . n m m x m m m .
+m x x . x . x x . b m x x x x x x x x t
+m x . . x . x . . . . . n n m . . . . .
+m x . . . . . . . x x . x x m x x x . .
+m x x x x . x x x x . . . . x . . . . .
+s x . . . . . . . . . . x . . . x . . .
+
+A Score: 10
+B Score: 669
+judge finished
+make[1]: Leaving directory '/home/mozixreality/110CP2_FinalProject'
+judging 107305111 & bot1
+judging 107305111 & bot2
+judging 107305111 & bot3
+judging 107306007 & bot1
+judging 107306007 & bot2
+judging 107306007 & bot3
+judging 107405221 & bot1
+judging 107405221 & bot2
+judging 107405221 & bot3
+judging 107601127 & bot1
+judging 107601127 & bot2
+judging 107601127 & bot3
+judging 107305111 & 107306007
+judging 107305111 & 107405221
+judging 107305111 & 107601127
+judging 107306007 & 107405221
+judging 107306007 & 107601127
+judging 107405221 & 107601127
