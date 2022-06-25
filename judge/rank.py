@@ -30,6 +30,7 @@ with open('result.csv', 'w') as f:
 for std in students:
     for bot in bots:
         print("judging {} & {}".format(std, bot))
+        subprocess.run("cd .. && rm -rf tmp", shell=True)
         subprocess.run("cp ../students/{}.cpp ../player/player.cpp".format(std), shell=True)
         if bot == "bot1":
             subprocess.run("cd .. && make judge1", shell=True)
@@ -72,6 +73,7 @@ for std in students:
 for i in range(len(students)):
     for j in range(i+1, len(students)):
         print("judging {} & {}".format(students[i], students[j]))
+        subprocess.run("cd .. && rm -rf tmp", shell=True)
         subprocess.run("cp ../students/{}.cpp ../player/player.cpp".format(students[i]), shell=True)
         subprocess.run("cp ../students/{}.cpp ../player/player2.cpp".format(students[j]), shell=True)
         subprocess.run("cd .. && make judge", shell=True)
