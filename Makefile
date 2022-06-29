@@ -19,6 +19,7 @@ clean:
 	@rm -rf *.log
 
 test:
+	@rm -rf tmp
 	@mkdir tmp
 	@cp player/player.cpp tmp/player.cpp
 	@g++ tmp/player.cpp -o tmp/player
@@ -30,6 +31,7 @@ test:
 	@rm -rf tmp
 
 judge:
+	@rm -rf tmp
 	@mkdir tmp
 	@cp judge/judge.py tmp
 	@cp map/20map tmp
@@ -49,6 +51,7 @@ judge:
 	@rm -rf tmp
 
 judge1:
+	@rm -rf tmp
 	@mkdir tmp
 	@cp judge/judge.py tmp
 	@cp map/20map tmp
@@ -70,6 +73,7 @@ judge1:
 	@rm -rf tmp
 
 judge2:
+	@rm -rf tmp
 	@mkdir tmp
 	@cp judge/judge.py tmp
 	@cp map/20map tmp
@@ -91,6 +95,7 @@ judge2:
 	@rm -rf tmp
 
 judge3:
+	@rm -rf tmp
 	@mkdir tmp
 	@cp judge/judge.py tmp
 	@cp map/20map tmp
