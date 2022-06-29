@@ -1,5 +1,5 @@
 SHELL := /bin/bash # Use bash syntax
-.PHONY: rank clean test judge judge1 judge2 judge3 help
+.PHONY: rank rerank clean test judge judge1 judge2 judge3 help
 .DEFAULT: help
 
 help:
@@ -13,6 +13,9 @@ help:
 
 rank:
 	@cd judge && python3 rank.py
+
+rerank:
+	@cd judge && python3 rerank.py
 
 clean:
 	@rm -rf tmp
