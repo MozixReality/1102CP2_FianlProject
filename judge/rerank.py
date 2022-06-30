@@ -25,7 +25,7 @@ for i in range(len(students)):
     std_index[students[i]] = i + 3
 
 # make csv
-with open('result.csv', 'w') as f:
+with open('re_result.csv', 'w') as f:
     for i in range(len(result_list)-1):
         f.write(result_list[i] + ", ")
     f.write(result_list[-1] + "\n")

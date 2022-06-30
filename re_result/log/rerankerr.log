@@ -1,0 +1,304 @@
+nohup: ignoring input
+Segmentation fault
+*** stack smashing detected ***: terminated
+Aborted
+*** stack smashing detected ***: terminated
+Aborted
+tmp/B.cpp:6:14: error: expected ‘)’ before ‘;’ token
+    6 | int a(int map;int size;int startx ;int starty;int score){
+      |      ~       ^
+      |              )
+tmp/B.cpp:6:56: error: expected initializer before ‘)’ token
+    6 | int a(int map;int size;int startx ;int starty;int score){
+      |                                                        ^
+tmp/B.cpp: In function ‘int main()’:
+tmp/B.cpp:96:20: error: invalid conversion from ‘int (*)[N]’ to ‘int’ [-fpermissive]
+   96 |         int ans= a(maze,M,xa,ya,P);
+      |                    ^~~~
+      |                    |
+      |                    int (*)[N]
+tmp/B.cpp:96:34: error: too many arguments to function ‘int a(int)’
+   96 |         int ans= a(maze,M,xa,ya,P);
+      |                                  ^
+tmp/B.cpp:6:5: note: declared here
+    6 | int a(int map;int size;int startx ;int starty;int score){
+      |     ^
+tmp/B.cpp:98:12: error: invalid conversion from ‘int (*)[N]’ to ‘int’ [-fpermissive]
+   98 |     ans= a(maze,M,xb,yb,Q);
+      |            ^~~~
+      |            |
+      |            int (*)[N]
+tmp/B.cpp:98:26: error: too many arguments to function ‘int a(int)’
+   98 |     ans= a(maze,M,xb,yb,Q);
+      |                          ^
+tmp/B.cpp:6:5: note: declared here
+    6 | int a(int map;int size;int startx ;int starty;int score){
+      |     ^
+tmp/B.cpp:103:15: error: expected ‘:’ before ‘;’ token
+  103 |         case 0;
+      |               ^
+      |               :
+tmp/B.cpp:106:15: error: expected ‘:’ before ‘;’ token
+  106 |         case 1;
+      |               ^
+      |               :
+tmp/B.cpp:109:15: error: expected ‘:’ before ‘;’ token
+  109 |         case 2;
+      |               ^
+      |               :
+tmp/B.cpp:112:15: error: expected ‘:’ before ‘;’ token
+  112 |         case 3;
+      |               ^
+      |               :
+make[1]: *** [Makefile:44: judge] Error 1
+Segmentation fault
+Segmentation fault
+tmp/B.cpp: In function ‘int most_possible_score(char**, bool**, int, int, int, int)’:
+tmp/B.cpp:63:22: error: ‘INT_MIN’ was not declared in this scope
+   63 |         max_score  = INT_MIN,
+      |                      ^~~~~~~
+tmp/B.cpp:7:1: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    6 | #include <map>
+  +++ |+#include <climits>
+    7 | 
+tmp/B.cpp:80:25: error: ‘depth’ was not declared in this scope
+   80 |     while(!q.empty() && depth--){
+      |                         ^~~~~
+tmp/B.cpp: In function ‘std::string auto_move(char**, int, int, char, int, int, int)’:
+tmp/B.cpp:138:32: error: ‘INT_MIN’ was not declared in this scope
+  138 |             adj_pos[k].score = INT_MIN;
+      |                                ^~~~~~~
+tmp/B.cpp:138:32: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+make[1]: *** [Makefile:44: judge] Error 1
+Segmentation fault
+Segmentation fault
+*** stack smashing detected ***: terminated
+Aborted
+*** stack smashing detected ***: terminated
+Aborted
+Segmentation fault
+tmp/B.cpp:6:14: error: expected ‘)’ before ‘;’ token
+    6 | int a(int map;int size;int startx ;int starty;int score){
+      |      ~       ^
+      |              )
+tmp/B.cpp:6:56: error: expected initializer before ‘)’ token
+    6 | int a(int map;int size;int startx ;int starty;int score){
+      |                                                        ^
+tmp/B.cpp: In function ‘int main()’:
+tmp/B.cpp:96:20: error: invalid conversion from ‘int (*)[N]’ to ‘int’ [-fpermissive]
+   96 |         int ans= a(maze,M,xa,ya,P);
+      |                    ^~~~
+      |                    |
+      |                    int (*)[N]
+tmp/B.cpp:96:34: error: too many arguments to function ‘int a(int)’
+   96 |         int ans= a(maze,M,xa,ya,P);
+      |                                  ^
+tmp/B.cpp:6:5: note: declared here
+    6 | int a(int map;int size;int startx ;int starty;int score){
+      |     ^
+tmp/B.cpp:98:12: error: invalid conversion from ‘int (*)[N]’ to ‘int’ [-fpermissive]
+   98 |     ans= a(maze,M,xb,yb,Q);
+      |            ^~~~
+      |            |
+      |            int (*)[N]
+tmp/B.cpp:98:26: error: too many arguments to function ‘int a(int)’
+   98 |     ans= a(maze,M,xb,yb,Q);
+      |                          ^
+tmp/B.cpp:6:5: note: declared here
+    6 | int a(int map;int size;int startx ;int starty;int score){
+      |     ^
+tmp/B.cpp:103:15: error: expected ‘:’ before ‘;’ token
+  103 |         case 0;
+      |               ^
+      |               :
+tmp/B.cpp:106:15: error: expected ‘:’ before ‘;’ token
+  106 |         case 1;
+      |               ^
+      |               :
+tmp/B.cpp:109:15: error: expected ‘:’ before ‘;’ token
+  109 |         case 2;
+      |               ^
+      |               :
+tmp/B.cpp:112:15: error: expected ‘:’ before ‘;’ token
+  112 |         case 3;
+      |               ^
+      |               :
+make[1]: *** [Makefile:44: judge] Error 1
+Segmentation fault
+Segmentation fault
+tmp/B.cpp: In function ‘int most_possible_score(char**, bool**, int, int, int, int)’:
+tmp/B.cpp:63:22: error: ‘INT_MIN’ was not declared in this scope
+   63 |         max_score  = INT_MIN,
+      |                      ^~~~~~~
+tmp/B.cpp:7:1: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    6 | #include <map>
+  +++ |+#include <climits>
+    7 | 
+tmp/B.cpp:80:25: error: ‘depth’ was not declared in this scope
+   80 |     while(!q.empty() && depth--){
+      |                         ^~~~~
+tmp/B.cpp: In function ‘std::string auto_move(char**, int, int, char, int, int, int)’:
+tmp/B.cpp:138:32: error: ‘INT_MIN’ was not declared in this scope
+  138 |             adj_pos[k].score = INT_MIN;
+      |                                ^~~~~~~
+tmp/B.cpp:138:32: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+make[1]: *** [Makefile:44: judge] Error 1
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+*** stack smashing detected ***: terminated
+Aborted
+*** stack smashing detected ***: terminated
+Aborted
+Segmentation fault
+tmp/B.cpp:6:14: error: expected ‘)’ before ‘;’ token
+    6 | int a(int map;int size;int startx ;int starty;int score){
+      |      ~       ^
+      |              )
+tmp/B.cpp:6:56: error: expected initializer before ‘)’ token
+    6 | int a(int map;int size;int startx ;int starty;int score){
+      |                                                        ^
+tmp/B.cpp: In function ‘int main()’:
+tmp/B.cpp:96:20: error: invalid conversion from ‘int (*)[N]’ to ‘int’ [-fpermissive]
+   96 |         int ans= a(maze,M,xa,ya,P);
+      |                    ^~~~
+      |                    |
+      |                    int (*)[N]
+tmp/B.cpp:96:34: error: too many arguments to function ‘int a(int)’
+   96 |         int ans= a(maze,M,xa,ya,P);
+      |                                  ^
+tmp/B.cpp:6:5: note: declared here
+    6 | int a(int map;int size;int startx ;int starty;int score){
+      |     ^
+tmp/B.cpp:98:12: error: invalid conversion from ‘int (*)[N]’ to ‘int’ [-fpermissive]
+   98 |     ans= a(maze,M,xb,yb,Q);
+      |            ^~~~
+      |            |
+      |            int (*)[N]
+tmp/B.cpp:98:26: error: too many arguments to function ‘int a(int)’
+   98 |     ans= a(maze,M,xb,yb,Q);
+      |                          ^
+tmp/B.cpp:6:5: note: declared here
+    6 | int a(int map;int size;int startx ;int starty;int score){
+      |     ^
+tmp/B.cpp:103:15: error: expected ‘:’ before ‘;’ token
+  103 |         case 0;
+      |               ^
+      |               :
+tmp/B.cpp:106:15: error: expected ‘:’ before ‘;’ token
+  106 |         case 1;
+      |               ^
+      |               :
+tmp/B.cpp:109:15: error: expected ‘:’ before ‘;’ token
+  109 |         case 2;
+      |               ^
+      |               :
+tmp/B.cpp:112:15: error: expected ‘:’ before ‘;’ token
+  112 |         case 3;
+      |               ^
+      |               :
+make[1]: *** [Makefile:44: judge] Error 1
+Segmentation fault
+Segmentation fault
+Segmentation fault
+tmp/B.cpp: In function ‘int most_possible_score(char**, bool**, int, int, int, int)’:
+tmp/B.cpp:63:22: error: ‘INT_MIN’ was not declared in this scope
+   63 |         max_score  = INT_MIN,
+      |                      ^~~~~~~
+tmp/B.cpp:7:1: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    6 | #include <map>
+  +++ |+#include <climits>
+    7 | 
+tmp/B.cpp:80:25: error: ‘depth’ was not declared in this scope
+   80 |     while(!q.empty() && depth--){
+      |                         ^~~~~
+tmp/B.cpp: In function ‘std::string auto_move(char**, int, int, char, int, int, int)’:
+tmp/B.cpp:138:32: error: ‘INT_MIN’ was not declared in this scope
+  138 |             adj_pos[k].score = INT_MIN;
+      |                                ^~~~~~~
+tmp/B.cpp:138:32: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+make[1]: *** [Makefile:44: judge] Error 1
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+*** stack smashing detected ***: terminated
+Aborted
+*** stack smashing detected ***: terminated
+Aborted
+Segmentation fault
+Segmentation fault
+tmp/B.cpp:6:14: error: expected ‘)’ before ‘;’ token
+    6 | int a(int map;int size;int startx ;int starty;int score){
+      |      ~       ^
+      |              )
+tmp/B.cpp:6:56: error: expected initializer before ‘)’ token
+    6 | int a(int map;int size;int startx ;int starty;int score){
+      |                                                        ^
+tmp/B.cpp: In function ‘int main()’:
+tmp/B.cpp:96:20: error: invalid conversion from ‘int (*)[N]’ to ‘int’ [-fpermissive]
+   96 |         int ans= a(maze,M,xa,ya,P);
+      |                    ^~~~
+      |                    |
+      |                    int (*)[N]
+tmp/B.cpp:96:34: error: too many arguments to function ‘int a(int)’
+   96 |         int ans= a(maze,M,xa,ya,P);
+      |                                  ^
+tmp/B.cpp:6:5: note: declared here
+    6 | int a(int map;int size;int startx ;int starty;int score){
+      |     ^
+tmp/B.cpp:98:12: error: invalid conversion from ‘int (*)[N]’ to ‘int’ [-fpermissive]
+   98 |     ans= a(maze,M,xb,yb,Q);
+      |            ^~~~
+      |            |
+      |            int (*)[N]
+tmp/B.cpp:98:26: error: too many arguments to function ‘int a(int)’
+   98 |     ans= a(maze,M,xb,yb,Q);
+      |                          ^
+tmp/B.cpp:6:5: note: declared here
+    6 | int a(int map;int size;int startx ;int starty;int score){
+      |     ^
+tmp/B.cpp:103:15: error: expected ‘:’ before ‘;’ token
+  103 |         case 0;
+      |               ^
+      |               :
+tmp/B.cpp:106:15: error: expected ‘:’ before ‘;’ token
+  106 |         case 1;
+      |               ^
+      |               :
+tmp/B.cpp:109:15: error: expected ‘:’ before ‘;’ token
+  109 |         case 2;
+      |               ^
+      |               :
+tmp/B.cpp:112:15: error: expected ‘:’ before ‘;’ token
+  112 |         case 3;
+      |               ^
+      |               :
+make[1]: *** [Makefile:44: judge] Error 1
+Segmentation fault
+Segmentation fault
+tmp/B.cpp: In function ‘int most_possible_score(char**, bool**, int, int, int, int)’:
+tmp/B.cpp:63:22: error: ‘INT_MIN’ was not declared in this scope
+   63 |         max_score  = INT_MIN,
+      |                      ^~~~~~~
+tmp/B.cpp:7:1: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    6 | #include <map>
+  +++ |+#include <climits>
+    7 | 
+tmp/B.cpp:80:25: error: ‘depth’ was not declared in this scope
+   80 |     while(!q.empty() && depth--){
+      |                         ^~~~~
+tmp/B.cpp: In function ‘std::string auto_move(char**, int, int, char, int, int, int)’:
+tmp/B.cpp:138:32: error: ‘INT_MIN’ was not declared in this scope
+  138 |             adj_pos[k].score = INT_MIN;
+      |                                ^~~~~~~
+tmp/B.cpp:138:32: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+make[1]: *** [Makefile:44: judge] Error 1
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault

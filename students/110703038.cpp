@@ -4,6 +4,8 @@
 #include <iostream> 
 #include <vector>
 #include <math.h>
+#define INT32_MIN -2147483647 
+#define INT32_MAX 2147483647
 
 using namespace std;
 
@@ -265,7 +267,7 @@ public:
 			const Position myPos = find_pos(character), foePos = find_pos(foe_character);
 			Position newMe = myPos, newFoe = foePos;
 			int result[16] = {0};
-			for (int i=0; i<16; ++i) result[i] = INT_MIN;
+			for (int i=0; i<16; ++i) result[i] = INT32_MIN;
 			const int newMeXdir[16] =  { 1,  1, -1, -1,  0,  0,  0,  0,  1,  1, -1, -1,  0,  0,  0,  0};
 			const int newMeYdir[16] =  { 0,  0,  0,  0,  1,  1, -1, -1,  0,  0,  0,  0,  1,  1, -1, -1};
 			const int newFoeXdir[16] = { 1,  0,  1,  0,  1,  0,  1,  0, -1,  0, -1,  0, -1,  0, -1,  0};

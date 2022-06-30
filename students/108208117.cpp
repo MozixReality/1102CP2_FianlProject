@@ -3,14 +3,10 @@
 #include <utility>
 #include <string>
 #include <climits>
-# include<ctime>
-#include <time.h> 
+
 
 using namespace std;
 typedef pair<int, int> PII;
-
-clock_t  Begin, End;
-double duration;
 
 #define F first
 #define S second
@@ -18,6 +14,7 @@ double duration;
 
 int Round, M, N, A,B;
 char Graph[20][20]={};
+int visited[20][20] = {};
 char me,opp;
 struct Move
 {
@@ -31,33 +28,6 @@ bool valid(int x, int y){
 			Graph[x][y] != 'A' && Graph[x][y] != 'B'
 		   );
 }
-/*
-   string next_dir(int x, int y, int num){
-   for(int i=0;i<4;i++){
-   switch(num%4) {
-   case 0: 
-   if(valid(x-1, y))
-   return "UP";
-   else break;
-   case 1:
-   if(valid(x+1, y)) 
-   return "DOWN";
-   else break;
-   case 2: 
-   if(valid(x, y-1))
-   return "LEFT";
-   else break;
-   case 3: 
-   if(valid(x, y+1))
-   return "RIGHT";
-   else break;
-   default: return "RIGHT";
-   }
-   num++;
-   }
-   return "RIGHT";
-   }
- */
 
 int evaluate(char sign,int mySco,int oppSco,int isMe)
 {	
@@ -103,12 +73,14 @@ int minimax(char Graph[20][20], int depth, bool isMax, char sign,int mySco,int o
 	if(isMax){
 		int best = INT_MIN;
 		
-		if(valid(meX+1,meY)){
+		if(valid(meX+1,meY)&& visited[meX+1][meY] == 0){
+			visited[meX+1][meY]=1;
 			sign=Graph[meX+1][meY];
 			Graph[meX+1][meY]=Graph[meX][meY];
 			Graph[meX][meY]='.';
 			best=max(best,minimax(Graph,depth+1,!isMax,sign,score,oppsco,meX+1,meY,oppX,oppY,alpha,beta));
 			//Undo the move
+			visited[meX+1][meY]=0;
 			Graph[meX][meY]=me;
 			Graph[meX+1][meY]=sign;
 			
@@ -117,12 +89,14 @@ int minimax(char Graph[20][20], int depth, bool isMax, char sign,int mySco,int o
             if (beta <= alpha)
                 return best;
 		}
-		if(valid(meX-1,meY)){
+		if(valid(meX-1,meY)&& visited[meX-1][meY] == 0){
+			visited[meX-1][meY]=1;
 			sign=Graph[meX-1][meY];
 			Graph[meX-1][meY]=Graph[meX][meY];
 			Graph[meX][meY]='.';
 			best=max(best,minimax(Graph,depth+1,!isMax,sign,score,oppsco,meX-1,meY,oppX,oppY,alpha,beta));
 			//Undo the move
+			visited[meX-1][meY] = 0;
 			Graph[meX][meY]=me;
 			Graph[meX-1][meY]=sign;
 			alpha = max(alpha, best);
@@ -130,12 +104,14 @@ int minimax(char Graph[20][20], int depth, bool isMax, char sign,int mySco,int o
             if (beta <= alpha)
                 return best;
 		}
-		if(valid(meX,meY+1)){
+		if(valid(meX,meY+1)&&visited[meX][meY+1] == 0){
+			visited[meX][meY+1]=1;
 			sign=Graph[meX][meY+1];
 			Graph[meX][meY+1]=Graph[meX][meY];
 			Graph[meX][meY]='.';
 			best=max(best,minimax(Graph,depth+1,!isMax,sign,score,oppsco,meX,meY+1,oppX,oppY,alpha,beta));
 			//Undo the move
+			visited[meX][meY+1]=0;
 			Graph[meX][meY]=me;
 			Graph[meX][meY+1]=sign;
 			alpha = max(alpha, best);
@@ -143,12 +119,14 @@ int minimax(char Graph[20][20], int depth, bool isMax, char sign,int mySco,int o
             if (beta <= alpha)
                 return best;
 		}
-		if(valid(meX,meY-1)){
+		if(valid(meX,meY-1)&&visited[meX][meY-1]==0){
+			visited[meX][meY-1]=1;
 			sign=Graph[meX][meY-1];
 			Graph[meX][meY-1]=Graph[meX][meY];
 			Graph[meX][meY]='.';
 			best=max(best,minimax(Graph,depth+1,!isMax,sign,score,oppsco,meX,meY-1,oppX,oppY,alpha,beta));
 			//Undo the move
+			visited[meX][meY-1]=0;
 			Graph[meX][meY]=me;
 			Graph[meX][meY-1]=sign;
 			alpha = max(alpha, best);
@@ -162,12 +140,14 @@ int minimax(char Graph[20][20], int depth, bool isMax, char sign,int mySco,int o
 	else{
 		int best = INT_MAX;
 		
-		if(valid(oppX+1,oppY)){
+		if(valid(oppX+1,oppY)&& visited[oppX+1][oppY] == 0){
+			visited[oppX+1][oppY] = 1;
 			sign=Graph[oppX+1][oppY];
 			Graph[oppX+1][oppY]=Graph[oppX][oppY];
 			Graph[oppX][oppY]='.';
 			best=min(best,minimax(Graph,depth+1,isMax,sign,score,oppsco,meX,meY,oppX+1,oppY,alpha,beta));
 			//Undo the move
+			visited[oppX+1][oppY] = 0;
 			Graph[oppX][oppY]=opp;
 			Graph[oppX+1][oppY]=sign;
 
@@ -177,12 +157,14 @@ int minimax(char Graph[20][20], int depth, bool isMax, char sign,int mySco,int o
             if (beta <= alpha)
         		return best;
 		}
-		if(valid(oppX-1,oppY)){
+		if(valid(oppX-1,oppY)&&visited[oppX-1][oppY] ==0){
+			visited[oppX-1][oppY] = 1;
 			sign=Graph[oppX-1][oppY];
 			Graph[oppX-1][oppY]=Graph[oppX][oppY];
 			Graph[oppX][oppY]='.';
 			best=min(best,minimax(Graph,depth+1,isMax,sign,score,oppsco,meX,meY,oppX-1,oppY,alpha,beta));
 			//Undo the move
+			visited[oppX-1][oppY] = 0;
 			Graph[oppX][oppY]=opp;
 			Graph[oppX-1][oppY]=sign;
 			beta = min(beta, best);
@@ -191,12 +173,14 @@ int minimax(char Graph[20][20], int depth, bool isMax, char sign,int mySco,int o
             if (beta <= alpha)
         		return best;
 		}
-		if(valid(oppX,oppY+1)){
+		if(valid(oppX,oppY+1)&&visited[oppX][oppY+1] == 0){
+			visited[oppX][oppY+1] = 1;
 			sign=Graph[oppX][oppY+1];
 			Graph[oppX][oppY+1]=Graph[oppX][oppY];
 			Graph[oppX][oppY]='.';
 			best=min(best,minimax(Graph,depth+1,isMax,sign,score,oppsco,meX,meY,oppX,oppY+1,alpha,beta));
 			//Undo the move
+			visited[oppX][oppY+1] = 0;
 			Graph[oppX][oppY]=opp;
 			Graph[oppX][oppY+1]=sign;
 			 beta = min(beta, best);
@@ -205,12 +189,14 @@ int minimax(char Graph[20][20], int depth, bool isMax, char sign,int mySco,int o
             if (beta <= alpha)
         		return best;
 		}
-		if(valid(oppX,oppY-1)){
+		if(valid(oppX,oppY-1)&&visited[oppX][oppY-1] == 0){
+			visited[oppX][oppY-1] = 1;
 			sign=Graph[oppX][oppY-1];
 			Graph[oppX][oppY-1]=Graph[oppX][oppY];
 			Graph[oppX][oppY]='.';
 			best=min(best,minimax(Graph,depth+1,isMax,sign,score,oppsco,meX,meY,oppX,oppY-1,alpha,beta));
 			//Undo the move
+			visited[oppX][oppY-1] = 0;
 			Graph[oppX][oppY]=opp;
 			Graph[oppX][oppY-1]=sign;
 			 beta = min(beta, best);
@@ -240,12 +226,14 @@ Move findBestMove(char Graph[20][20],int meX,int meY,int oppX,int oppY){
 	bestMove.col=-1;
 
 	char sign;
-	if(valid(meX+1,meY)){
+	if(valid(meX+1,meY)&& visited[meX+1][meY] == 0){
+		visited[meX+1][meY] =1;
 		sign=Graph[meX+1][meY];
 		Graph[meX+1][meY]=Graph[meX][meY];
 		Graph[meX][meY]='.';
 		int moveSco=minimax(Graph,0,true,sign,mySco,oppSco,meX+1,meY,oppX,oppY,INT_MIN,INT_MAX);
 		//Undo the move
+		visited[meX+1][meY] =0;
 		Graph[meX][meY]=me;
 		Graph[meX+1][meY]=sign;
 		if (moveSco > bestSco){
@@ -255,12 +243,14 @@ Move findBestMove(char Graph[20][20],int meX,int meY,int oppX,int oppY){
 		}
 		//printf("best score: %d \n",bestSco);
 	}
-	if(valid(meX-1,meY)){
+	if(valid(meX-1,meY)&&visited[meX-1][meY] ==0){
+		visited[meX-1][meY] =1;
 		sign=Graph[meX-1][meY];
 		Graph[meX-1][meY]=Graph[meX][meY];
 		Graph[meX][meY]='.';
 		int moveSco=minimax(Graph,0,true,sign,mySco,oppSco,meX-1,meY,oppX,oppY,INT_MIN,INT_MAX);
 		//Undo the move
+		visited[meX-1][meY] =0;
 		Graph[meX][meY]=me;
 		Graph[meX-1][meY]=sign;
 		if (moveSco > bestSco){
@@ -270,12 +260,14 @@ Move findBestMove(char Graph[20][20],int meX,int meY,int oppX,int oppY){
 		}
 		//printf("best score: %d \n",bestSco);
 	}
-	if(valid(meX,meY+1)){
+	if(valid(meX,meY+1)&&visited[meX][meY+1] ==0){
+		visited[meX][meY+1] =1;
 		sign=Graph[meX][meY+1];
 		Graph[meX][meY+1]=Graph[meX][meY];
 		Graph[meX][meY]='.';
 		int moveSco=minimax(Graph,0,true,sign,mySco,oppSco,meX,meY+1,oppX,oppY,INT_MIN,INT_MAX);
 		//Undo the move
+		visited[meX][meY+1] =0;
 		Graph[meX][meY]=me;
 		Graph[meX][meY+1]=sign;
 		if (moveSco > bestSco){
@@ -285,12 +277,14 @@ Move findBestMove(char Graph[20][20],int meX,int meY,int oppX,int oppY){
 		}
 		//printf("best score: %d \n",bestSco);
 	}
-	if(valid(meX,meY-1)){
+	if(valid(meX,meY-1)&&visited[meX][meY-1] ==0){
+		visited[meX][meY-1] =1;
 		sign=Graph[meX][meY-1];
 		Graph[meX][meY-1]=Graph[meX][meY];
 		Graph[meX][meY]='.';
 		int moveSco=minimax(Graph,0,true,sign,mySco,oppSco,meX,meY-1,oppX,oppY,INT_MIN,INT_MAX);
 		//Undo the move
+		visited[meX][meY-1] =0;
 		Graph[meX][meY]=me;
 		Graph[meX][meY-1]=sign;
 		if (moveSco > bestSco){
@@ -313,9 +307,7 @@ int main(void){
 		for(int j=0;j<N;j++)
 			cin >> Graph[i][j];
 	cin >> A >> B >> me;
-	double START,END;
-	START = clock();
-	Begin = clock();
+
 	if(me=='A')
 		opp='B';
 	else
@@ -332,30 +324,31 @@ int main(void){
 				oppY = j;
 			}
 		}
+	//printf("%d %d",meX,meY);
+	if(valid(meX-1,meY) && (Graph[meX-1][meY] == 's'||Graph[meX-1][meY] == 'm'))
+		printf("UP\n");
+	else if(valid(meX+1,meY) && (Graph[meX+1][meY] == 's'||Graph[meX+1][meY] == 'm'))
+		printf("DOWN\n");
+	else if(valid(meX,meY+1) && (Graph[meX][meY+1] == 's'||Graph[meX][meY+1] == 'm'))
+		printf("RIGHT\n");
+	else if(valid(meX,meY-1) && (Graph[meX][meY-1] == 's'||Graph[meX][meY-1] == 'm'))
+		printf("LEFT\n");
+	else{
+		Move bestMove = findBestMove(Graph,meX,meY,oppX,oppY);
+		if(bestMove.row-meX==1)
+		printf("DOWN\n");
+		if(bestMove.row-meX==-1)
+			printf("UP\n");
+		if(bestMove.col-meY==1)
+			printf("RIGHT\n");
+		if(bestMove.col-meY==-1)
+			printf("LEFT\n");
 
-
-	Move bestMove = findBestMove(Graph,meX,meY,oppX,oppY);
-
+	}
 	//  printf("The Optimal Move is : \n");
 	//  printf("ROW: %d COL: %d\n\n", bestMove.row,bestMove.col );
 
-	if(bestMove.row-meX==1)
-		printf("DOWN\n");
-	if(bestMove.row-meX==-1)
-		printf("UP\n");
-	if(bestMove.col-meY==1)
-		printf("RIGHT\n");
-	if(bestMove.col-meY==-1)
-		printf("LEFT\n");
 
-	End = clock();
-	END = clock();
-	
-	duration = double(End - Begin) / CLK_TCK;
-	//cout << "tick=" << double(End - Begin) << endl;
-	//cout << "duration=" << duration << endl;
-	//cout << endl << "程式執行所花費：" << (double)clock()/CLOCKS_PER_SEC << " S";
-	//cout << endl << "進行運算所花費的時間：" << (END - START) / CLOCKS_PER_SEC << " S" << endl;
 	return 0;
 	//1
 	//8 8
