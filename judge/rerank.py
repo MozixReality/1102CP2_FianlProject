@@ -74,7 +74,7 @@ for std in restd:
             pass
 
 for i in range(len(restd)):
-    for j in range(i+1, len(students)):
+    for j in range(len(students)):
         print("judging {} & {}".format(restd[i], students[j]))
         subprocess.run("cd .. && rm -rf tmp", shell=True)
         subprocess.run("cp ../re_students/{}.cpp ../player/player.cpp".format(restd[i]), shell=True)
