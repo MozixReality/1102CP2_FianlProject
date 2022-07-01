@@ -86,6 +86,7 @@ for i in range(len(restd)):
                 for li in range(len(mylog)-1, 0, -1):
                     if mylog[li].find("Win") != -1:
                         if mylog[li].find("A") != -1:
+                            # here 
                             result_table[std_index[restd[i]]][std_index[students[j]]] = students[i]
                             break
                         elif mylog[li].find("B") != -1:
@@ -99,6 +100,7 @@ for i in range(len(restd)):
                 for li in range(len(mylog)-1, 0, -1):
                     if mylog[li].find("Win") != -1:
                         if mylog[li].find("A") != -1:
+                            # here
                             result_table[std_index[students[j]]][std_index[restd[i]]] = students[j]
                             break
                         elif mylog[li].find("B") != -1:
